@@ -40,3 +40,5 @@ vignettes/*.pdf
 
 # Rent
 /renv/
+
+/.quarto/
