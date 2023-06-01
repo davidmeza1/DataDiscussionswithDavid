@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"4dcd62de8596f464","x":-92,"y":-549,"width":250,"height":60,"color":"6","type":"text","text":"Visualization"},
+		{"id":"9044a4ce412e1266","x":-1103,"y":-489,"width":250,"height":60,"color":"5","type":"text","text":"Colors"},
+		{"id":"0eb450edf0646141","x":-1119,"y":-213,"width":283,"height":400,"type":"file","file":"Data Visualization/datavizcolors.jpeg"},
+		{"id":"8e89b290fa53832c","x":624,"y":-519,"width":250,"height":60,"type":"text","text":"Links"},
+		{"id":"9e8992917167d992","x":549,"y":-292,"width":400,"height":400,"type":"link","url":"https://www.data-to-viz.com/#histogram"},
+		{"id":"70b772586c889966","x":-1119,"y":-949,"width":250,"height":60,"type":"text","text":"Reference"},
+		{"id":"6418c934ea46ed84","x":-1317,"y":-1511,"width":400,"height":205,"type":"file","file":"Data Books/Fundamental of Data Visualization.md"}
+	],
+	"edges":[
+		{"id":"76294e8be265cd9e","fromNode":"4dcd62de8596f464","fromSide":"bottom","toNode":"9044a4ce412e1266","toSide":"top"},
+		{"id":"92a54948e6c98298","fromNode":"9044a4ce412e1266","fromSide":"bottom","toNode":"0eb450edf0646141","toSide":"top"},
+		{"id":"54f85a29f100d7db","fromNode":"4dcd62de8596f464","fromSide":"bottom","toNode":"8e89b290fa53832c","toSide":"top"},
+		{"id":"e06f663150778c39","fromNode":"8e89b290fa53832c","fromSide":"bottom","toNode":"9e8992917167d992","toSide":"top"},
+		{"id":"d5ec7d5e29642fcc","fromNode":"4dcd62de8596f464","fromSide":"top","toNode":"70b772586c889966","toSide":"bottom"},
+		{"id":"a617609da3881863","fromNode":"70b772586c889966","fromSide":"top","toNode":"6418c934ea46ed84","toSide":"bottom"}
+	]
+}

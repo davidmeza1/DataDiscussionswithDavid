@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1683212648309,
+      "items": [],
+      "title": "Data Literacy"
+    },
+    {
+      "type": "file",
+      "ctime": 1683212670936,
+      "path": "Data Literacy/Data Literacy.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1683212702252,
+      "path": "Data Analytics/Descriptive.md"
+    },
+    {
+      "type": "group",
+      "ctime": 1683808772503,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1683808786719,
+          "path": "Data Analytics/Large Language Models.md"
+        }
+      ],
+      "title": "Generative AI"
+    }
+  ]
+}
