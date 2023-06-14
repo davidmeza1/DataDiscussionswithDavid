@@ -32,6 +32,21 @@
             }
           },
           {
+            "id": "e1487180716aa0fd",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Data Visualization/Visualization.canvas",
+                "viewState": {
+                  "x": 839.7199999999995,
+                  "y": -238.5600000000015,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
             "id": "51bef22462cc02e8",
             "type": "leaf",
             "state": {
@@ -54,7 +69,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -83,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "data governance",
+                "query": "tag:#book",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -128,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research Apps.md",
+                "file": "Data Books/Fundamental of Data Visualization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research Apps.md",
+                "file": "Data Books/Fundamental of Data Visualization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research Apps.md"
+                "file": "Data Books/Fundamental of Data Visualization.md"
               }
             }
           }
@@ -194,42 +209,43 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1e40bdfd0ce0e7f3",
+  "active": "89920495f9c0de94",
   "lastOpenFiles": [
-    "Data Orchestration/Orchestration.md",
+    "David Meza/Presentations/Links to Presentation videos and articles.md",
+    "David Meza/dmeza_dmexco 1.jpeg",
+    "David Meza/Github.md",
+    "dmeza_dmexco 1.jpeg.md",
     "Research Apps.md",
+    "Pasted image 20230307162400.png",
+    "Pasted image 20230307162402.png",
+    "Pasted image 20230307162611.png",
+    "Data Visualization/Infographics.md",
+    "Data Visualization/datavizcolors.jpeg",
+    "Data Visualization/Visualization.canvas",
+    "Data Literacy/Data Literacy.md",
     "Data Analytics/Generative AI.md",
+    "Data Analytics/Diagnostic.md",
+    "Data Analytics/Descriptive.md",
+    "Data Analytics/Data Analytics Development Life Cycle.md",
+    "Data Orchestration/Orchestration.md",
     "Data Analytics/PEER by Meta AI.md",
     "Data Analytics/Predictive.md",
     "Data Analytics/Large Language Models.md",
     "Data Analytics/LaMDA by Google AI.md",
     "Data Analytics/PaLM by Google AI.md",
-    "Data Analytics/Descriptive.md",
-    "Data Literacy/Data Literacy.md",
     "Data Books/1. Links to Books.md",
     "Data Analytics/Pasted image 20230212144539.png",
     "Data Books/Exploratory Model Analysis.md",
-    "Data Analytics/Data Analytics Development Life Cycle.md",
     "Data Analytics/Prescriptive.md",
-    "Data Analytics/Diagnostic.md",
-    "David Meza/Presentations/Links to Presentation videos and articles.md",
-    "Data Visualization/Infographics.md",
     "David Meza/BIO.md",
-    "David Meza/dmeza_dmexco 1.jpeg",
     "David Meza/dmeza_dmexco.jpeg",
-    "dmeza_dmexco 1.jpeg.md",
-    "David Meza/Github.md",
     "Application GUIs/Python GUIs.md",
     "Application GUIs",
     "Data Books/Introduction to Modern Statistics.md",
     "Data Science/Data Science.canvas",
     "Data Books/Fundamental of Data Visualization.md",
-    "Pasted image 20230307162611.png",
-    "Pasted image 20230307162402.png",
-    "Pasted image 20230307162400.png",
     "inpho_graph.rmd",
     "Data Books/Python Data Science Handbook.md",
-    "Data Books/R Cookbook 2ed.md",
-    "Data Engineering/Orchest.md"
+    "Data Books/R Cookbook 2ed.md"
   ]
 }

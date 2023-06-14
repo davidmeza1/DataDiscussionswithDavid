@@ -1,0 +1,131 @@
+---
+title: "Mastering Data Visualization for Business Analysts"
+author: "David Meza"
+format:
+  revealjs:
+    theme: sky
+    logo: knowledgegraphAI.jpeg
+    footer: "© David Meza"
+    chalkboard: true
+    multiplex: true
+    preview-links: auto
+    slide-number: true
+    code-fold: true
+editor: visual
+---
+
+## Mastering Data Visualization for Business Analysts
+
+Data visualization is **the communication of data and information using charts, graphs, diagrams, and other infographics**. Visuals make data and text easier to digest by taking different learning styles and approaches into consideration and helping to convey content as efficiently and effectively as possible.
+
+Welcome and introduce yourself as a Business Intelligence Instructor.
+Highlight the importance of data visualization for business analysts.
+Emphasize how effective data visualization drives informed decision-making.Provide an overview of the agenda for the presentation.
+
+## Fundamentals of Data Visualization
+
+## Definition and purpose of data visualization
+
+## Benefits of visualizing data
+
+## Key principles of effective data visualization
+
+Simplicity and clarity.
+
+Relevance and context.
+
+Accuracy and integrity
+
+## Selecting the Right Visualization Techniques
+
+## Understanding different types of data:
+
+Categorical data.
+
+Numerical data.
+
+Temporal data.
+
+Geospatial data.
+
+## Exploring visualization techniques for each data type:
+
+Bar charts and pie charts.
+
+Line graphs and area charts.
+
+Scatter plots and bubble charts.
+
+Heatmaps and choropleth maps.
+
+## Considerations for choosing the appropriate visualization:
+
+Data distribution and relationships.
+
+Message or insights to convey.
+
+Audience and context.
+
+## Designing Effective Visualizations
+
+## Preparing data for visualization
+
+Data cleaning and preprocessing.
+
+Aggregating and summarizing data.
+
+## Design principles for impactful visualizations
+
+Using appropriate color schemes
+
+Selecting the right chart elements (titles, axes, labels)
+
+Applying effective data-driven storytelling.
+
+Utilizing interactivity and drill-down features.
+
+## Common pitfalls to avoid in data visualization
+
+Chart junk and unnecessary embellishments.
+
+Misrepresentation and distortion.
+
+Lack of context and clarity.
+
+## Tools and Technologies
+
+## Introduction to popular data visualization tools
+
+Tableau.
+
+Power BI.
+
+Google Data Studio.
+
+## Demonstration of a visualization using one of the tools
+
+Walk through the process of creating a sample visualization.
+
+Highlight key features and functionalities.
+
+## Best Practices for Effective Communication
+
+## Considerations for communicating visualizations
+
+Know your audience.
+
+Keep it simple and focused.
+
+Use effective titles and annotations.
+
+Provide clear context and explanations.
+
+## Presenting visualizations
+
+Storytelling with data
+
+Using visuals as support, not distraction.
+
+Encouraging audience interaction and questions.
+
+## Questions?

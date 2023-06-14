@@ -1,0 +1,25 @@
+---
+title: "Mastering Data Visualization for Business Analysts"
+author: "David"
+format:
+  revealjs:
+    theme: sky
+    logo: knowledgegraphAI.jpeg
+    footer: "© David Meza"
+    chalkboard: true
+    multiplex: true
+    preview-links: auto
+    slide-number: true
+    code-fold: true
+editor: visual
+---
+
+## Visualization
+
+::: panel-tabset
+## Batting Averages
+
+## Temp
+
+## Corralation
+:::
