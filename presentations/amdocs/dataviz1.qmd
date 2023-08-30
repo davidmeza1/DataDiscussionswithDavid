@@ -1,6 +1,6 @@
 ---
 title: "Mastering Data Visualization for Business Analysts"
-author: "David"
+author: "David Meza"
 format:
   revealjs:
     theme: sky
@@ -14,12 +14,338 @@ format:
 editor: visual
 ---
 
+## Mastering Data Visualization for Business Analysts
+
+Data visualization is **the communication of data and information using charts, graphs, diagrams, and other infographics**. Visuals make data and text easier to digest by taking different learning styles and approaches into consideration and helping to convey content as efficiently and effectively as possible.
+
+::: notes
+::: notes
+Welcome and introduce yourself as a Business Intelligence Instructor. Highlight the importance of data visualization for business analysts. Emphasize how effective data visualization drives informed decision-making.Provide an overview of the agenda for the presentation.
+:::
+:::
+
+## David Meza {.smaller}
+
+::: columns
+::: {.column width="40%"}
+![David Meza](images/dmeza_dmexco.jpeg) [LinkedIn](https://www.linkedin.com/in/davidmeza1/)
+:::
+
+::: {.column width="60%"}
+Serves as the Head of Analytics, and Branch Chief, People Analytics for the NASA's Office of Human Capital. He previously served as Chief Knowledge Architect at NASA Johnson Space Center (JSC). During his tenure, he has worked in all aspects of the Information Technology field developing and deploying several IT systems in use at JSC. His desire to improve IT processes and systems lead him to earn a Master's certificates in Project Management and Six Sigma in addition to becoming a NASA certified Lean Six Sigma Master Black Belt. Mr. Meza is conducting research in People Analytics, Automatic Classification algorithms, entity tagging, topic modeling, data driven visualization and text to graph pipelines
+:::
+:::
+
 ## Visualization
 
 ::: panel-tabset
 ## Batting Averages
 
+![](images/paste-8BE6876A.png){fig-align="center" width="650" height="450"}
+
 ## Temp
 
-## Corralation
+::: columns
+::: {.column width="50%"}
+![](images/paste-A6DB5F5C.png){width="650" height="450"}
 :::
+
+::: {.column width="50%"}
+![](images/paste-5E43C8EA.png){width="650" height="450"}
+:::
+:::
+
+## Correlations
+
+![](images/spurious.png)
+:::
+
+## Fundamentals of Data Visualization {.smaller}
+
+In order for an organization to excel in data visualization, a culture of *data literacy* must exist. **Data literacy is the ability to read, work with, analyze and communicate with data.**
+
+Viewed through the lens of the 4 levels of Analytics
+
+![](images/paste-2BDD49F3.png){fig-align="center" width="681"}
+
+## Four Levels of Analytics {.smaller}
+
+::: panel-tabset
+## Descriptive: The What (explore)
+
+Descriptive statistics turn the data into something more understandable than raw data but data visualization goes further than that and **creates a visual which quickly tells a story**.
+
+![](images/paste-401C4C77.png){fig-align="center" width="648"}
+
+## Diagnostic: The Why (explain)
+
+Diagnostic analytics is **a form of advanced analytics that examines data or content to answer the question, "Why did it happen?"** It is characterized by techniques such as drill-down, data discovery, data mining and correlations
+
+![](images/paste-F1ACCDB2.png){fig-align="center" width="464"}
+
+## Predictive: What + Why = Prediction
+
+Predictive analytics is ***the use of statistics and modeling techniques to determine future performance based on current and historical data***
+
+![](images/paste-2E72D09E.png){fig-align="center" width="510"}
+
+## Prescriptive: Data Driven Decisions
+
+Prescriptive analytics is **the process of using data to determine an optimal course of action**. By considering all relevant factors, this type of analysis yields recommendations for next steps.
+
+![](images/paste-96277818.png){fig-align="center" width="622"}
+:::
+
+## Key Principles of Effective Visualization {.smaller}
+
+::: panel-tabset
+## Curiosity
+
+We can break down overall visualization, filter it, start to get answers and generate more questions.
+
+-   What is causing my KPI to fall?
+
+-   Why is my churn so high?
+
+-   How can I improve engagement?
+
+## Creativity
+
+The ability to transcend traditional ideas, rules, patterns, relationships and to create meaningful new ideas, forms, methods, interpretations, and originality.
+
+Get insight from diverse groups.
+
+## Critical Thinking
+
+Disciplined thinking that is clear, rational, open-minded, and informed by evidence.
+
+-   Observe
+
+-   Gather input
+
+-   Strategize
+
+## Communication
+
+We mentioned above, data visualization is communication. Communication is the act of transferring information from one place, person or group to another.
+
+But it is also about **story telling** with data ........... plan it out
+:::
+
+## Different data types {.smaller}
+
+[Data To Viz](https://www.data-to-viz.com/)
+
+::: panel-tabset
+## Numeric
+
+![](images/numeric.png){fig-align="center" width="530"}
+
+## Categorical
+
+![](images/categorical.png){fig-align="center" width="378"}
+
+## Num & Cat
+
+![](images/num_cat.png){fig-align="center" width="494"}
+
+## Maps
+
+![](images/maps.png){fig-align="center" width="161"}
+
+## Network
+
+![](images/network.png){fig-align="center" width="463"}
+
+## Time Series
+
+![](images/time.png){fig-align="center" width="233"}
+:::
+
+## Tips and Tricks {.smaller}
+
+**Be Inspired like an artist**
+
+Austin Kleon, author of [Steal Like an Artist](https://austinkleon.com/steal/), encourages us to embrace the influence of others. This holds true in designing dashboards as much as in any creative endeavor. Don't create your work in a vacuum: Take inspiration from as many places as you can. When you see a great visualization, examine it and consider any aspects that would benefit your own work.
+
+![](images/artist1.png){fig-align="center"}
+
+## Avoid Clutter {.smaller}
+
+When you first start building dashboards, it's tempting to throw every possible applicable chart or graph onto them. Don't fall into that trap.
+
+The trick is to remove as much as you possibly can while ensuring the end user gets the right insight from your dashboard. This is often an iterative process, as you can only discover the "better" version over time.
+
+![](images/avoid_clutter.png){fig-align="center"}
+
+## Use Grid Layout {.smaller}
+
+When placing objects on a dashboard (views, filters, titles, etc.), consider a grid format. A grid helps provide a reading order for your dashboard, allowing your users to guide themselves through the dashboard in a predictable and logical way. You can use a columnar- or row-based flow to create a narrative that leads users from overview to detail.
+
+![](images/gridlayout.png){fig-align="center"}
+
+## Use Right Fonts {.smaller}
+
+Typography is important. It can be tempting to use too many font types and sizes in a dashboard. Don't do that; instead, define a clear hierarchy for your typography. In the example, there is a top-, mid-, and low-level font. The mid-level is blue to focus viewer attention. Color draws the eye to the most important level (which needn't necessarily be the top-level font). Reducing the levels of hierarchy to only the most necessary reduces confusion for your users, and color is one of the best ways to attract viewers.
+
+![](images/fonts.png){fig-align="center" width="529"}
+
+## Simplify the use of color {.smaller}
+
+How many times have you seen a dashboard that looks like an accident in a paint shop? Color is one of the most tempting things to play with when building a dashboard. It feels productive, and it seems like you're adding value by making things colorful. But get this: **unnecessary color does not add value.**
+
+Why did you choose any specific color, and what does it communicate to your user? If you can't answer that question, remove the color.
+
+Keep in mind that 8% of males have color-vision deficiency (CVD): choose palettes that work well universally. This means avoiding reds and greens, or at least choosing reds/greens that can be seen by people with CVD.
+
+![](images/color.png){fig-align="center"}
+
+## BANs {.smaller}
+
+Don't bury the most important fact, your KPI, in a chart. Show it loud and proud as a **Big A\*\* Number (BAN)!**
+
+This technique hits users with the most vital information immediately, and charts provide further context.
+
+![](images/bans.png){fig-align="center" width="4807"}
+
+## Collaborate and Iterate {.smaller}
+
+If you take one tip away from this, it's this one: no dashboard is right the first time. Time and collaboration are the only ways to hone in on the best representation of your data. Other people's opinions will bring you fresh perspectives.
+
+![](images/iterate.png){fig-align="center" width="2558"}
+
+## Finance Dashboard Strategies {.smaller}
+
+**Share cross tabs if and when you must, then phase them out**
+
+::: columns
+::: {.column width="50%"}
+Many finance professionals don't want to give up their spreadsheets because of their familiarity with the format. They want to see numbers to four decimal places or more or have numbers colored in a certain fashion. To win them over, create a dashboard with a cross tab to give them access to the format they crave. Introduce stakeholders new to Tableau and advanced analytics with a dashboard that offers hard numbers they can trust in an easy-tounderstand, visual format. The charts and graphs in your dashboard can serve as filters on the cross tabs.
+:::
+
+::: {.column width="50%"}
+[Accounts Receivable Analysis](https://public.tableau.com/app/profile/tableau.for.finance/viz/AccountsReceivableAnalysis/AccountsReceivableAnalysis)
+
+![](images/crosstab.png){fig-align="center"}
+:::
+:::
+
+## Enable drill-down hierarchies from parent accounts and cost centers {.smaller}
+
+::: columns
+::: {.column width="50%"}
+When developing finance dashboards, preparing source system data and aggregating can be highly manual and take up valuable time. This slow process means that your numbers are often out-of-date by the time you've completed aggregating the data, also creating inflexibility around future changes or updates to your analysis. This can be solved by automating the data pipeline.
+:::
+
+::: {.column width="50%"}
+[Income statement dashboard](https://public.tableau.com/profile/tableau.for.finance#!/vizhome/IncomeStatement_10/IncomeStatementYTD)
+
+![](images/incomestmt.png){fig-align="center"}
+:::
+:::
+
+## Bring Financial Planning and Actual Data Together {.smaller}
+
+::: columns
+::: {.column width="50%"}
+Many finance teams have struggled to improve forecast accuracy because of the complex, timeconsuming, and manual work required. The painstaking process involves repeatedly bringing data together with varying levels of detail to understand the difference between results and forecasts, continually honing accuracy by iterating on various financial scenarios. By enabling users to add on new financial planning data sets and select them through drop-down menus, finance teams can quickly avoid repeating the same manual steps.
+:::
+
+::: {.column width="50%"}
+[Comparing Forecasts Dashboard](https://public.tableau.com/app/profile/tableau.for.finance/viz/CompareForecastsResults/ComparingForecasts___)
+
+![](images/compare.png){fig-align="center"}
+:::
+:::
+
+## Visualize the difference between budgets, actuals, and forecasts {.smaller}
+
+::: columns
+::: {.column width="50%"}
+Another strategy that will help you build more successful dashboards is to thoughtfully visualize the variances between your budgets, actuals, and forecasts. It's simple math, but it creates a tricky visualization problem: when comparing two numbers, the difference between them becomes a "third number." Effectively visualizing three numbers to tell an insightful story can be challenging.
+:::
+
+::: {.column width="50%"}
+The bullet chart below enables viewers to see the status of actuals (the bar) relative to the forecast (the black line).
+
+![](images/bullet.png){fig-align="center" width="286"}
+:::
+:::
+
+## Dig into the details of your data {.smaller}
+
+::: columns
+::: {.column width="50%"}
+One of the areas where Tableau thrives and spreadsheets struggle is in dealing with big data sets. There are two main methods finance teams use to get around the spreadsheet's limitations: (1) They aggregate data and (2) They create samples of data as a means to perform testing.
+
+Aggregating data can prevent exploration of the patterns and trends that are driving results.
+
+Sampling can also result in missed opportunities to spot patterns and trends.
+:::
+
+::: {.column width="50%"}
+Visualize all of your data
+
+![](images/alldata.png){fig-align="center"}
+:::
+:::
+
+## Share securely, set subscriptions, and data-driven alerts {.smaller}
+
+::: columns
+::: {.column width="50%"}
+Executives can't explore dashboards everyday, so it's necessary to create reports with high-level views offering the ability to drill down into detail. Proactively set up data-driven alerts for senior leaders to be notified when certain numbers fall below a specific threshold or band of confidence, or when there are data outliers regarding the close of a big deal. You can also subscribe leaders to a snapshot of a view at regular intervals to inform of their most important data.
+:::
+
+::: {.column width="50%"}
+Sales Tracker
+
+![](images/alerts.png){fig-align="center"}
+:::
+:::
+
+## Develop a style guide that brands your content and creates trust {.smaller}
+
+::: columns
+::: {.column width="50%"}
+An important aspect to designing dashboards that people will love and use is creating a report that looks familiar. Develop a style guide or standardized look, which provides consistency and establishes trust with stakeholders, visually indicating that this is a verified, secure source of truth. Consistent dashboard design also makes it easier for viewers to quickly understand and interact with dashboards, because they are familiar with the location and functionality of key features.
+:::
+
+::: {.column width="50%"}
+![](images/template.png){fig-align="center"}
+:::
+:::
+
+## Framework For Data Visualization
+
+::: r-fit-text
+1.  Understand your domain.
+2.  Ask good questions. Ask plenty of questions. Can you ask the right question tied to the right business objective.
+3.  Acquire the data. Understand your data pipeline so you can repeat and reproduce results.
+4.  Analyze. You do not need to be a data scientist, just be data literate.
+5.  Apply your personal experience and domain knowledge.
+6.  Review output with a diverse group.
+7.  Make a decision, publish, promote and communicate it.
+8.  Provide instructions and demos on how to interpret views.
+9.  Have a feedback loop.
+10. Celebrate
+11. Do it again
+:::
+
+## Resources
+
+[The R Graph Gallery](https://r-graph-gallery.com/index.html)
+
+[Data Science Notebooks](https://datasciencenotebook.org/)
+
+[RStudio Table Gallery](https://community.rstudio.com/c/table-gallery/64)
+
+[R Shiny Gallery](https://shiny.rstudio.com/gallery/)
+
+[Looker](https://www.looker.com/)
+
+[Dash Enterprise App Gallery](https://dash.gallery/Portal/?_gl=1*jjs7tn*_ga*MTcwMDE5MTU3NS4xNjYzMTA5NjEz*_ga_6G7EE0JNSC*MTY2MzEwOTYxMy4xLjEuMTY2MzEwOTYxNS4wLjAuMA..)
+
+[Tableau gallery](https://public.tableau.com/app/discover/viz-of-the-day)
+
+## Questions

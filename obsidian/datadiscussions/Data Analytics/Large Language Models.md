@@ -31,3 +31,24 @@ I have downloaded to usb drive, but have not tried it yet
 
 [Auto GPT](https://github.com/Significant-Gravitas/Auto-GPT)
 Auto-GPT is an experimental open-source application showcasing the capabilities of the GPT-4 language model. This program, driven by GPT-4, chains together LLM "thoughts", to autonomously achieve whatever goal you set. As one of the first examples of GPT-4 running fully autonomously, Auto-GPT pushes the boundaries of what is possible with AI.
+
+
+[MetaGPT](https://github.com/geekan/MetaGPT)
+Assign different roles to GPTs to form a collaborative software entity for complex tasks.
+
+[How to Train an AI Chatbot With Custom Knowledge Base Using ChatGPT API](https://beebom.com/how-train-ai-chatbot-custom-knowledge-base-chatgpt-api/)
+
+[Azure ChatGPT](https://github.com/NEYRIB/azurechatgpt)
+ChatGPT has grown explosively in popularity as we all know now. Business users across the globe often tap into the public service to work more productively or act as a creative assistant.
+
+However, ChatGPT risks exposing confidential intellectual property. One option is to block corporate access to ChatGPT, but people always find workarounds. This also limits the powerful capabilities of ChatGPT and reduces employee productivity and their work experience.
+
+Azure ChatGPT is our enterprise option. This is the exact same service but offered as your private ChatGPT.
+
+[OpenLLaMA: An Open Reproduction of LLaMA](https://github.com/openlm-research/open_llama)
+we are releasing our public preview of OpenLLaMA, a permissively licensed open source reproduction of Meta AI’s LLaMA. We are releasing a series of 3B, 7B and 13B models trained on different data mixtures. Our model weights can serve as the drop in replacement of LLaMA in existing implementations.
+
+In this repo, we present a permissively licensed open source reproduction of Meta AI's [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) large language model. We are releasing a series of 3B, 7B and 13B models trained on 1T tokens. We provide PyTorch and JAX weights of pre-trained OpenLLaMA models, as well as evaluation results and comparison against the original LLaMA models. The v2 model is better than the old v1 model trained on a different data mixture.
+
+[LLaMA2-Accessory: An Open-source Toolkit for LLM Development](https://github.com/Alpha-VLLM/LLaMA2-Accessory)
+**LLaMA2-Accessory** is an open-source toolkit for pre-training, fine-tuning and deployment of **Large Language Models (LLMs)** and **mutlimodal LLMs**. This repo is mainly inherited from [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter) with more advanced features
