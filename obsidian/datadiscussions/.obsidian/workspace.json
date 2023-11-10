@@ -8,40 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d551d557284a1c1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "David Meza/Presentations/Links to Presentation videos and articles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e40bdfd0ce0e7f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research Apps.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e1487180716aa0fd",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Data Visualization/Visualization.canvas",
+                "file": "Data Analytics/Private LLM Chatbot.canvas",
                 "viewState": {
-                  "x": 839.7199999999995,
-                  "y": -238.5600000000015,
-                  "zoom": 0
+                  "x": 362.47753424657486,
+                  "y": 620.6605479452056,
+                  "zoom": 1
                 }
               }
             }
@@ -68,8 +44,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#book",
+                "query": "bio",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,6 +97,18 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "1e40bdfd0ce0e7f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research Apps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -143,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Books/Fundamental of Data Visualization.md",
+                "file": "private-LLM-ChatGPT-workflow.webp",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Books/Fundamental of Data Visualization.md",
+                "file": "private-LLM-ChatGPT-workflow.webp",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Books/Fundamental of Data Visualization.md"
+                "file": "private-LLM-ChatGPT-workflow.webp"
               }
             }
           }
@@ -203,49 +190,55 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "card-board:CardBoard": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "89920495f9c0de94",
+  "active": "e1487180716aa0fd",
   "lastOpenFiles": [
+    "Data Analytics/Large Language Models.md",
+    "Data Analytics/Descriptive.md",
+    "Data Analytics/Pasted image 20230212144539.png",
+    "Data Storage/Weaviate.md",
+    "Data Analytics/Graph Analytics.md",
+    "Data Analytics/Generative AI.md",
+    "Data Storage/MEM Graph.md",
+    "Data Storage",
+    "Application GUIs/ntitled",
+    "Data Analytics/Private LLM Chatbot.canvas",
+    "LLM_embeddings2.webp",
+    "LLM_embeddings.webp",
+    "RetrievalAugmentationGeneration.webp",
+    "private-LLM-ChatGPT-workflow.webp",
+    "private-LLM-architecture.webp",
+    "Research Apps.md",
+    "Data Analytics/LaMDA by Google AI.md",
+    "Data Analytics/PaLM by Google AI.md",
+    "Data Visualization/Visualization.canvas",
+    "David Meza/BIO.md",
+    "Data Orchestration/Orchestration.md",
     "David Meza/Presentations/Links to Presentation videos and articles.md",
     "David Meza/dmeza_dmexco 1.jpeg",
     "David Meza/Github.md",
     "dmeza_dmexco 1.jpeg.md",
-    "Research Apps.md",
     "Pasted image 20230307162400.png",
     "Pasted image 20230307162402.png",
     "Pasted image 20230307162611.png",
     "Data Visualization/Infographics.md",
-    "Data Visualization/datavizcolors.jpeg",
-    "Data Visualization/Visualization.canvas",
     "Data Literacy/Data Literacy.md",
-    "Data Analytics/Generative AI.md",
     "Data Analytics/Diagnostic.md",
-    "Data Analytics/Descriptive.md",
     "Data Analytics/Data Analytics Development Life Cycle.md",
-    "Data Orchestration/Orchestration.md",
     "Data Analytics/PEER by Meta AI.md",
     "Data Analytics/Predictive.md",
-    "Data Analytics/Large Language Models.md",
-    "Data Analytics/LaMDA by Google AI.md",
-    "Data Analytics/PaLM by Google AI.md",
     "Data Books/1. Links to Books.md",
-    "Data Analytics/Pasted image 20230212144539.png",
     "Data Books/Exploratory Model Analysis.md",
     "Data Analytics/Prescriptive.md",
-    "David Meza/BIO.md",
-    "David Meza/dmeza_dmexco.jpeg",
     "Application GUIs/Python GUIs.md",
     "Application GUIs",
     "Data Books/Introduction to Modern Statistics.md",
     "Data Science/Data Science.canvas",
-    "Data Books/Fundamental of Data Visualization.md",
-    "inpho_graph.rmd",
-    "Data Books/Python Data Science Handbook.md",
-    "Data Books/R Cookbook 2ed.md"
+    "inpho_graph.rmd"
   ]
 }

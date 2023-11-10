@@ -10,7 +10,7 @@
 <link href="dataviz1_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.340">
 
-  <meta name="author" content="David">
+  <meta name="author" content="David Meza">
   <title>Mastering Data Visualization for Business Analysts</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -332,28 +332,384 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-David 
+David Meza 
 </div>
 </div>
 </div>
 
 </section>
+<section id="mastering-data-visualization-for-business-analysts" class="slide level2">
+<h2>Mastering Data Visualization for Business Analysts</h2>
+<p>Data visualization is <strong>the communication of data and information using charts, graphs, diagrams, and other infographics</strong>. Visuals make data and text easier to digest by taking different learning styles and approaches into consideration and helping to convey content as efficiently and effectively as possible.</p>
+<aside class="notes">
+<aside class="notes">
+<p>Welcome and introduce yourself as a Business Intelligence Instructor. Highlight the importance of data visualization for business analysts. Emphasize how effective data visualization drives informed decision-making.Provide an overview of the agenda for the presentation.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="david-meza" class="slide level2 smaller">
+<h2>David Meza</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/dmeza_dmexco.jpeg" alt="David Meza"> <a href="https://www.linkedin.com/in/davidmeza1/">LinkedIn</a></p>
+</div><div class="column" style="width:60%;">
+<p>Serves as the Head of Analytics, and Branch Chief, People Analytics for the NASA’s Office of Human Capital. He previously served as Chief Knowledge Architect at NASA Johnson Space Center (JSC). During his tenure, he has worked in all aspects of the Information Technology field developing and deploying several IT systems in use at JSC. His desire to improve IT processes and systems lead him to earn a Master’s certificates in Project Management and Six Sigma in addition to becoming a NASA certified Lean Six Sigma Master Black Belt. Mr.&nbsp;Meza is conducting research in People Analytics, Automatic Classification algorithms, entity tagging, topic modeling, data driven visualization and text to graph pipelines</p>
+</div>
+</div>
+</section>
 <section id="visualization" class="slide level2">
 <h2>Visualization</h2>
 <div class="panel-tabset">
-<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Batting Averages</a></li><li><a href="#tabset-1-2">Temp</a></li><li><a href="#tabset-1-3">Corralation</a></li></ul>
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Batting Averages</a></li><li><a href="#tabset-1-2">Temp</a></li><li><a href="#tabset-1-3">Correlations</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1">
-
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/paste-8BE6876A.png" width="650" height="450"></p>
+</figure>
+</div>
 </div>
 <div id="tabset-1-2">
-
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/paste-A6DB5F5C.png" width="650" height="450"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/paste-5E43C8EA.png" width="650" height="450"></p>
+</div>
+</div>
 </div>
 <div id="tabset-1-3">
+<p><img data-src="images/spurious.png"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="fundamentals-of-data-visualization" class="slide level2 smaller">
+<h2>Fundamentals of Data Visualization</h2>
+<p>In order for an organization to excel in data visualization, a culture of <em>data literacy</em> must exist. <strong>Data literacy is the ability to read, work with, analyze and communicate with data.</strong></p>
+<p>Viewed through the lens of the 4 levels of Analytics</p>
 
+<img data-src="images/paste-2BDD49F3.png" width="681" class="r-stretch quarto-figure-center"></section>
+<section id="four-levels-of-analytics" class="slide level2 smaller">
+<h2>Four Levels of Analytics</h2>
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Descriptive: The What (explore)</a></li><li><a href="#tabset-2-2">Diagnostic: The Why (explain)</a></li><li><a href="#tabset-2-3">Predictive: What + Why = Prediction</a></li><li><a href="#tabset-2-4">Prescriptive: Data Driven Decisions</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1">
+<p>Descriptive statistics turn the data into something more understandable than raw data but data visualization goes further than that and <strong>creates a visual which quickly tells a story</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/paste-401C4C77.png" width="648"></p>
+</figure>
+</div>
+</div>
+<div id="tabset-2-2">
+<p>Diagnostic analytics is <strong>a form of advanced analytics that examines data or content to answer the question, “Why did it happen?”</strong> It is characterized by techniques such as drill-down, data discovery, data mining and correlations</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/paste-F1ACCDB2.png" width="464"></p>
+</figure>
+</div>
+</div>
+<div id="tabset-2-3">
+<p>Predictive analytics is <strong><em>the use of statistics and modeling techniques to determine future performance based on current and historical data</em></strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/paste-2E72D09E.png" width="510"></p>
+</figure>
+</div>
+</div>
+<div id="tabset-2-4">
+<p>Prescriptive analytics is <strong>the process of using data to determine an optimal course of action</strong>. By considering all relevant factors, this type of analysis yields recommendations for next steps.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/paste-96277818.png" width="622"></p>
+</figure>
 </div>
 </div>
 </div>
+</div>
+</section>
+<section id="key-principles-of-effective-visualization" class="slide level2 smaller">
+<h2>Key Principles of Effective Visualization</h2>
+<div class="panel-tabset">
+<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Curiosity</a></li><li><a href="#tabset-3-2">Creativity</a></li><li><a href="#tabset-3-3">Critical Thinking</a></li><li><a href="#tabset-3-4">Communication</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1">
+<p>We can break down overall visualization, filter it, start to get answers and generate more questions.</p>
+<ul>
+<li><p>What is causing my KPI to fall?</p></li>
+<li><p>Why is my churn so high?</p></li>
+<li><p>How can I improve engagement?</p></li>
+</ul>
+</div>
+<div id="tabset-3-2">
+<p>The ability to transcend traditional ideas, rules, patterns, relationships and to create meaningful new ideas, forms, methods, interpretations, and originality.</p>
+<p>Get insight from diverse groups.</p>
+</div>
+<div id="tabset-3-3">
+<p>Disciplined thinking that is clear, rational, open-minded, and informed by evidence.</p>
+<ul>
+<li><p>Observe</p></li>
+<li><p>Gather input</p></li>
+<li><p>Strategize</p></li>
+</ul>
+</div>
+<div id="tabset-3-4">
+<p>We mentioned above, data visualization is communication. Communication is the act of transferring information from one place, person or group to another.</p>
+<p>But it is also about <strong>story telling</strong> with data ……….. plan it out</p>
+</div>
+</div>
+</div>
+</section>
+<section id="different-data-types" class="slide level2 smaller">
+<h2>Different data types</h2>
+<p><a href="https://www.data-to-viz.com/">Data To Viz</a></p>
+<div class="panel-tabset">
+<ul id="tabset-4" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-4-1">Numeric</a></li><li><a href="#tabset-4-2">Categorical</a></li><li><a href="#tabset-4-3">Num &amp; Cat</a></li><li><a href="#tabset-4-4">Maps</a></li><li><a href="#tabset-4-5">Network</a></li><li><a href="#tabset-4-6">Time Series</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/numeric.png" width="530"></p>
+</figure>
+</div>
+</div>
+<div id="tabset-4-2">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/categorical.png" width="378"></p>
+</figure>
+</div>
+</div>
+<div id="tabset-4-3">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/num_cat.png" width="494"></p>
+</figure>
+</div>
+</div>
+<div id="tabset-4-4">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/maps.png" width="161"></p>
+</figure>
+</div>
+</div>
+<div id="tabset-4-5">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/network.png" width="463"></p>
+</figure>
+</div>
+</div>
+<div id="tabset-4-6">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/time.png" width="233"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="tips-and-tricks" class="slide level2 smaller">
+<h2>Tips and Tricks</h2>
+<p><strong>Be Inspired like an artist</strong></p>
+<p>Austin Kleon, author of <a href="https://austinkleon.com/steal/">Steal Like an Artist</a>, encourages us to embrace the influence of others. This holds true in designing dashboards as much as in any creative endeavor. Don’t create your work in a vacuum: Take inspiration from as many places as you can. When you see a great visualization, examine it and consider any aspects that would benefit your own work.</p>
+
+<img data-src="images/artist1.png" class="r-stretch quarto-figure-center"></section>
+<section id="avoid-clutter" class="slide level2 smaller">
+<h2>Avoid Clutter</h2>
+<p>When you first start building dashboards, it’s tempting to throw every possible applicable chart or graph onto them. Don’t fall into that trap.</p>
+<p>The trick is to remove as much as you possibly can while ensuring the end user gets the right insight from your dashboard. This is often an iterative process, as you can only discover the “better” version over time.</p>
+
+<img data-src="images/avoid_clutter.png" class="r-stretch quarto-figure-center"></section>
+<section id="use-grid-layout" class="slide level2 smaller">
+<h2>Use Grid Layout</h2>
+<p>When placing objects on a dashboard (views, filters, titles, etc.), consider a grid format. A grid helps provide a reading order for your dashboard, allowing your users to guide themselves through the dashboard in a predictable and logical way. You can use a columnar- or row-based flow to create a narrative that leads users from overview to detail.</p>
+
+<img data-src="images/gridlayout.png" class="r-stretch quarto-figure-center"></section>
+<section id="use-right-fonts" class="slide level2 smaller">
+<h2>Use Right Fonts</h2>
+<p>Typography is important. It can be tempting to use too many font types and sizes in a dashboard. Don’t do that; instead, define a clear hierarchy for your typography. In the example, there is a top-, mid-, and low-level font. The mid-level is blue to focus viewer attention. Color draws the eye to the most important level (which needn’t necessarily be the top-level font). Reducing the levels of hierarchy to only the most necessary reduces confusion for your users, and color is one of the best ways to attract viewers.</p>
+
+<img data-src="images/fonts.png" width="529" class="r-stretch quarto-figure-center"></section>
+<section id="simplify-the-use-of-color" class="slide level2 smaller">
+<h2>Simplify the use of color</h2>
+<p>How many times have you seen a dashboard that looks like an accident in a paint shop? Color is one of the most tempting things to play with when building a dashboard. It feels productive, and it seems like you’re adding value by making things colorful. But get this: <strong>unnecessary color does not add value.</strong></p>
+<p>Why did you choose any specific color, and what does it communicate to your user? If you can’t answer that question, remove the color.</p>
+<p>Keep in mind that 8% of males have color-vision deficiency (CVD): choose palettes that work well universally. This means avoiding reds and greens, or at least choosing reds/greens that can be seen by people with CVD.</p>
+
+<img data-src="images/color.png" class="r-stretch quarto-figure-center"></section>
+<section id="bans" class="slide level2 smaller">
+<h2>BANs</h2>
+<p>Don’t bury the most important fact, your KPI, in a chart. Show it loud and proud as a <strong>Big A** Number (BAN)!</strong></p>
+<p>This technique hits users with the most vital information immediately, and charts provide further context.</p>
+
+<img data-src="images/bans.png" width="4807" class="r-stretch quarto-figure-center"></section>
+<section id="collaborate-and-iterate" class="slide level2 smaller">
+<h2>Collaborate and Iterate</h2>
+<p>If you take one tip away from this, it’s this one: no dashboard is right the first time. Time and collaboration are the only ways to hone in on the best representation of your data. Other people’s opinions will bring you fresh perspectives.</p>
+
+<img data-src="images/iterate.png" width="2558" class="r-stretch quarto-figure-center"></section>
+<section id="finance-dashboard-strategies" class="slide level2 smaller">
+<h2>Finance Dashboard Strategies</h2>
+<p><strong>Share cross tabs if and when you must, then phase them out</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Many finance professionals don’t want to give up their spreadsheets because of their familiarity with the format. They want to see numbers to four decimal places or more or have numbers colored in a certain fashion. To win them over, create a dashboard with a cross tab to give them access to the format they crave. Introduce stakeholders new to Tableau and advanced analytics with a dashboard that offers hard numbers they can trust in an easy-tounderstand, visual format. The charts and graphs in your dashboard can serve as filters on the cross tabs.</p>
+</div><div class="column" style="width:50%;">
+<p><a href="https://public.tableau.com/app/profile/tableau.for.finance/viz/AccountsReceivableAnalysis/AccountsReceivableAnalysis">Accounts Receivable Analysis</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/crosstab.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="enable-drill-down-hierarchies-from-parent-accounts-and-cost-centers" class="slide level2 smaller">
+<h2>Enable drill-down hierarchies from parent accounts and cost centers</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>When developing finance dashboards, preparing source system data and aggregating can be highly manual and take up valuable time. This slow process means that your numbers are often out-of-date by the time you’ve completed aggregating the data, also creating inflexibility around future changes or updates to your analysis. This can be solved by automating the data pipeline.</p>
+</div><div class="column" style="width:50%;">
+<p><a href="https://public.tableau.com/profile/tableau.for.finance#!/vizhome/IncomeStatement_10/IncomeStatementYTD">Income statement dashboard</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/incomestmt.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="bring-financial-planning-and-actual-data-together" class="slide level2 smaller">
+<h2>Bring Financial Planning and Actual Data Together</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Many finance teams have struggled to improve forecast accuracy because of the complex, timeconsuming, and manual work required. The painstaking process involves repeatedly bringing data together with varying levels of detail to understand the difference between results and forecasts, continually honing accuracy by iterating on various financial scenarios. By enabling users to add on new financial planning data sets and select them through drop-down menus, finance teams can quickly avoid repeating the same manual steps.</p>
+</div><div class="column" style="width:50%;">
+<p><a href="https://public.tableau.com/app/profile/tableau.for.finance/viz/CompareForecastsResults/ComparingForecasts___">Comparing Forecasts Dashboard</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/compare.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="visualize-the-difference-between-budgets-actuals-and-forecasts" class="slide level2 smaller">
+<h2>Visualize the difference between budgets, actuals, and forecasts</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Another strategy that will help you build more successful dashboards is to thoughtfully visualize the variances between your budgets, actuals, and forecasts. It’s simple math, but it creates a tricky visualization problem: when comparing two numbers, the difference between them becomes a “third number.” Effectively visualizing three numbers to tell an insightful story can be challenging.</p>
+</div><div class="column" style="width:50%;">
+<p>The bullet chart below enables viewers to see the status of actuals (the bar) relative to the forecast (the black line).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/bullet.png" width="286"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="dig-into-the-details-of-your-data" class="slide level2 smaller">
+<h2>Dig into the details of your data</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>One of the areas where Tableau thrives and spreadsheets struggle is in dealing with big data sets. There are two main methods finance teams use to get around the spreadsheet’s limitations: (1) They aggregate data and (2) They create samples of data as a means to perform testing.</p>
+<p>Aggregating data can prevent exploration of the patterns and trends that are driving results.</p>
+<p>Sampling can also result in missed opportunities to spot patterns and trends.</p>
+</div><div class="column" style="width:50%;">
+<p>Visualize all of your data</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/alldata.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="share-securely-set-subscriptions-and-data-driven-alerts" class="slide level2 smaller">
+<h2>Share securely, set subscriptions, and data-driven alerts</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Executives can’t explore dashboards everyday, so it’s necessary to create reports with high-level views offering the ability to drill down into detail. Proactively set up data-driven alerts for senior leaders to be notified when certain numbers fall below a specific threshold or band of confidence, or when there are data outliers regarding the close of a big deal. You can also subscribe leaders to a snapshot of a view at regular intervals to inform of their most important data.</p>
+</div><div class="column" style="width:50%;">
+<p>Sales Tracker</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/alerts.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="develop-a-style-guide-that-brands-your-content-and-creates-trust" class="slide level2 smaller">
+<h2>Develop a style guide that brands your content and creates trust</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>An important aspect to designing dashboards that people will love and use is creating a report that looks familiar. Develop a style guide or standardized look, which provides consistency and establishes trust with stakeholders, visually indicating that this is a verified, secure source of truth. Consistent dashboard design also makes it easier for viewers to quickly understand and interact with dashboards, because they are familiar with the location and functionality of key features.</p>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/template.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="framework-for-data-visualization" class="slide level2">
+<h2>Framework For Data Visualization</h2>
+<div class="r-fit-text">
+<ol type="1">
+<li>Understand your domain.</li>
+<li>Ask good questions. Ask plenty of questions. Can you ask the right question tied to the right business objective.</li>
+<li>Acquire the data. Understand your data pipeline so you can repeat and reproduce results.</li>
+<li>Analyze. You do not need to be a data scientist, just be data literate.</li>
+<li>Apply your personal experience and domain knowledge.</li>
+<li>Review output with a diverse group.</li>
+<li>Make a decision, publish, promote and communicate it.</li>
+<li>Provide instructions and demos on how to interpret views.</li>
+<li>Have a feedback loop.</li>
+<li>Celebrate</li>
+<li>Do it again</li>
+</ol>
+</div>
+</section>
+<section id="resources" class="slide level2">
+<h2>Resources</h2>
+<p><a href="https://r-graph-gallery.com/index.html">The R Graph Gallery</a></p>
+<p><a href="https://datasciencenotebook.org/">Data Science Notebooks</a></p>
+<p><a href="https://community.rstudio.com/c/table-gallery/64">RStudio Table Gallery</a></p>
+<p><a href="https://shiny.rstudio.com/gallery/">R Shiny Gallery</a></p>
+<p><a href="https://www.looker.com/">Looker</a></p>
+<p><a href="https://dash.gallery/Portal/?_gl=1*jjs7tn*_ga*MTcwMDE5MTU3NS4xNjYzMTA5NjEz*_ga_6G7EE0JNSC*MTY2MzEwOTYxMy4xLjEuMTY2MzEwOTYxNS4wLjAuMA..">Dash Enterprise App Gallery</a></p>
+<p><a href="https://public.tableau.com/app/discover/viz-of-the-day">Tableau gallery</a></p>
+</section>
+<section id="questions" class="slide level2">
+<h2>Questions</h2>
 
 <img src="knowledgegraphAI.jpeg" class="slide-logo r-stretch"><div class="footer footer-default">
 <p>© David Meza</p>
