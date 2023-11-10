@@ -1,0 +1,39 @@
+---
+title: "Building An Analytic Team"
+author: "David Meza"
+format: html
+---
+
+## Building an Analytic Team
+
+Build a team that can be used in any organization
+
+## Assumptions
+
+You have access to all the data
+
+You have access to sufficient cloud tools and resources
+
+## What does your team look like
+
+### Data Engineer
+
+Two
+
+### Cloud Architect and Admins
+
+Two
+
+### Data Analyst\\Decision Scientist
+
+Four
+
+### ML Engineer
+
+Two
+
+## What dose the Architecture look like
+
+### Data Pipeline
+
+#### Orchestration
