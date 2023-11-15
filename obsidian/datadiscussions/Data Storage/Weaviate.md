@@ -11,3 +11,13 @@ Magic Chat is a chatbot built with [Streamlit](https://streamlit.io/) and [We
 
 [Health Search demo](https://github.com/weaviate/healthsearch-demo)
 Welcome to the Healthsearch Demo, an open-source project aimed at showcasing the potential of leveraging user-written reviews and queries to retrieve supplement products based on specific health effects.
+
+[# Getting Started with Weaviate: A Beginner’s Guide to Search with Vector Databases](https://towardsdatascience.com/getting-started-with-weaviate-a-beginners-guide-to-search-with-vector-databases-14bbb9285839)
+How to use vector databases for semantic search, question answering, and generative search in Python with OpenAI and Weaviate
+
+### [Deep Dive: How do Vector Databases Work](https://newsletter.theaiedge.io/p/deep-dive-how-do-vector-databases?utm_source=substack&utm_medium=email)
+Today we dive into the subject of vector databases. Those databases are often use in search engines by using the vector representations of the items we are trying to search. We dig into the different algorithms that allow us to search for vectors among billions or trillions of documents.**_
+
+
+
+![[Pasted image 20230830152522.png]]
