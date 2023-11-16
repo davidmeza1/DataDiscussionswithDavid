@@ -1,7 +1,15 @@
 {
   "id": "obsidian-tasks-plugin",
   "name": "Tasks",
+<<<<<<< Updated upstream
   "version": "5.0.0",
+=======
+<<<<<<< HEAD
+  "version": "5.1.0",
+=======
+  "version": "5.0.0",
+>>>>>>> a7bb98b52533135092ba25b083f249ef06911949
+>>>>>>> Stashed changes
   "minAppVersion": "1.1.1",
   "description": "Task management for Obsidian",
   "author": "Martin Schenck and Clare Macrae",

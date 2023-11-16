@@ -11,6 +11,7 @@
             "id": "e1487180716aa0fd",
             "type": "leaf",
             "state": {
+<<<<<<< Updated upstream
               "type": "markdown",
               "state": {
                 "file": "Data Analytics/Large Language Models.md",
@@ -23,13 +24,16 @@
             "id": "51bef22462cc02e8",
             "type": "leaf",
             "state": {
+=======
+>>>>>>> Stashed changes
               "type": "markdown",
               "state": {
-                "file": "Data Analytics/Descriptive.md",
+                "file": "Data Analytics/LaMDA by Google AI.md",
                 "mode": "source",
                 "source": false
               }
             }
+<<<<<<< Updated upstream
           },
           {
             "id": "065f1f531b27da3d",
@@ -67,6 +71,8 @@
                 "source": false
               }
             }
+=======
+>>>>>>> Stashed changes
           }
         ],
         "currentTab": 3
@@ -98,7 +104,11 @@
             "state": {
               "type": "search",
               "state": {
+<<<<<<< Updated upstream
                 "query": "openai",
+=======
+                "query": "cou",
+>>>>>>> Stashed changes
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,7 +166,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Data Analytics/Large Language Models.md",
+=======
+                "file": "Data Analytics/LaMDA by Google AI.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,6 +182,7 @@
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "7979ddba6829bb0a",
             "type": "leaf",
             "state": {
@@ -180,6 +195,8 @@
             }
           },
           {
+=======
+>>>>>>> Stashed changes
             "id": "14c80b70158bf6a5",
             "type": "leaf",
             "state": {
@@ -196,27 +213,47 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Data Analytics/Large Language Models.md"
+=======
+                "file": "Data Analytics/LaMDA by Google AI.md"
+>>>>>>> Stashed changes
               }
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "cd3d522ea2cebfb2",
+=======
+            "id": "b888b2e198d06c20",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "all-properties",
               "state": {
                 "sortOrder": "frequency"
+<<<<<<< Updated upstream
+=======
+              }
+            }
+          },
+          {
+            "id": "b4e91f54502d74cc",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Data Analytics/LaMDA by Google AI.md"
+>>>>>>> Stashed changes
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,12 +263,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "card-board:CardBoard": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "card-board:CardBoard": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "markdown-importer:Open format converter": false
     }
   },
+<<<<<<< Updated upstream
   "active": "53abb6908527e94a",
   "lastOpenFiles": [
     "Data Analytics/Large Language Models.md",
@@ -264,6 +303,52 @@
     "Data Storage/MEM Graph.md",
     "Data Science/Synthetic Data.md",
     "Data Books/1. Links to Books.md",
+=======
+  "active": "89920495f9c0de94",
+  "lastOpenFiles": [
+    "Research and Development/Research Ideas.md",
+    "Research and Development",
+    "Pasted image 20230830152522.png",
+    "Pasted image 20230830092858.png",
+    "Data Science/Synthetic Data.md",
+    "Data Analytics/SeamlessM4T.md",
+    "Data Analytics/MLOps.md",
+    "Data Analytics/API  KEYS.md",
+    "Data Analytics/Diagnostic.md",
+    "Data Literacy/Data Literacy.md",
+    "Data Analytics/Descriptive.md",
+    "Dashboards/Courses.md",
+    "Dashboards",
+    "Data Literacy/data_literacy_course.md",
+    "Data Visualization/data_viz.md",
+    "Research Apps.md",
+    "Data Visualization/Infographics.md",
+    "Data Visualization/datavizcolors.jpeg",
+    "Data Visualization/Visualization.canvas",
+    "Data Analytics/Pasted image 20230212144539.png",
+    "Application GUIs/Python GUIs.md",
+    "dmeza_dmexco 1.jpeg.md",
+    "Data Storage/Weaviate.md",
+    "Projects/Automated Reports - live project/Automated Reports.md",
+    "Data Analytics/Private LLM Chatbot.canvas",
+    "Data Analytics/Large Language Models.md",
+    "Data Analytics/Graph Analytics.md",
+    "Data Analytics/Generative AI.md",
+    "Data Storage/MEM Graph.md",
+    "Data Storage",
+    "Application GUIs/ntitled",
+    "LLM_embeddings2.webp",
+    "LLM_embeddings.webp",
+    "RetrievalAugmentationGeneration.webp",
+    "private-LLM-ChatGPT-workflow.webp",
+    "private-LLM-architecture.webp",
+    "Data Analytics/LaMDA by Google AI.md",
+    "Data Analytics/PaLM by Google AI.md",
+    "David Meza/BIO.md",
+    "Data Orchestration/Orchestration.md",
+    "David Meza/dmeza_dmexco 1.jpeg",
+    "Application GUIs",
+>>>>>>> Stashed changes
     "Data Science/Data Science.canvas",
     "Data Books/Python Data Science Handbook.md",
     "Research and Development",

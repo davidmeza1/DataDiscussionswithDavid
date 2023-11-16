@@ -6,7 +6,6 @@
   "obsidian-tasks-plugin",
   "card-board",
   "obsidian-citation-plugin",
-  "code-block-copy",
   "cm-editor-syntax-highlight-obsidian",
   "highlightr-plugin",
   "hotkeysplus-obsidian",
@@ -17,5 +16,8 @@
   "obsidian-style-settings",
   "tag-wrangler",
   "text-extractor",
-  "obsidian-emoji-toolbar"
+  "obsidian-emoji-toolbar",
+  "code-block-copy",
+  "obsidian-annotator",
+  "quickadd"
 ]

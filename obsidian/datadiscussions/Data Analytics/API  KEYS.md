@@ -1,0 +1,4 @@
+
+Open AI  for weviate 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 
+Hugging face weaviate - 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
+Cohere - Jd6kxLzMNGEDtt9S9OejTUBxViv9pZQ9ba6qYE6W
