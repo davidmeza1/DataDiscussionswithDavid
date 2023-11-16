@@ -27,3 +27,5 @@ Generate text (choose a provider)
 • [Hugging Face](https://www.linkedin.com/company/huggingface/): llama-2-7b-chat-hf  
   
 Want to give it a try? Test it out on the [Weaviate](https://www.linkedin.com/company/weaviate-io/) documentation, blogs, and videos: [https://verba.weaviate.io/](https://verba.weaviate.io/)
+
+[[Retrieval-Augmentation Generation-From Theory to LangChain Implementation]]
