@@ -1,15 +1,7 @@
 {
   "id": "dataview",
   "name": "Dataview",
-<<<<<<< Updated upstream
-  "version": "0.5.63",
-=======
-<<<<<<< HEAD
   "version": "0.5.64",
-=======
-  "version": "0.5.63",
->>>>>>> a7bb98b52533135092ba25b083f249ef06911949
->>>>>>> Stashed changes
   "minAppVersion": "0.13.11",
   "description": "Complex data views for the data-obsessed.",
   "author": "Michael Brenan <blacksmithgu@gmail.com>",

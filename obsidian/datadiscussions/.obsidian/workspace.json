@@ -11,13 +11,40 @@
             "id": "53abb6908527e94a",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "Delta Lake.md"
+                "file": "Data Analytics/API  KEYS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4580f7a1e3e26a5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Storage/Weaviate.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e53df7a1dc746c13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analytics/API  KEYS.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -46,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "delta",
+                "query": "api",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,12 +111,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 274.5
   },
   "right": {
     "id": "68771b412653e7b2",
@@ -105,6 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Data Analytics/API  KEYS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Data Analytics/API  KEYS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +170,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Data Analytics/API  KEYS.md"
+              }
             }
           },
           {
@@ -151,7 +181,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -178,32 +210,33 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d66d392cd8e8231a",
+  "active": "e53df7a1dc746c13",
   "lastOpenFiles": [
+    "Application GUIs/Python GUIs.md",
+    "Data Analytics/Private LLM Chatbot.canvas",
+    "Data Analytics/MLOps.md",
+    "Data Analytics/Large Language Models.md",
+    "David Meza/BIO.md",
+    "Data Visualization/data_viz.md",
+    "Delta Lake.md",
     "Retrieval-Augmentation Generation-From Theory to LangChain Implementation.md",
     "Pasted image 20231116140311.png",
     "Pasted image 20231116135523.png",
     "Pasted image 20231116135500.png",
     "Pasted image 20231116135434.png",
-    "Delta Lake.md",
-    "Data Visualization/data_viz.md",
     "Dashboards/Courses.md",
     "Research and Development/Research Ideas.md",
-    "Data Analytics/Private LLM Chatbot.canvas",
     "Data Analytics/Descriptive.md",
-    "Data Analytics/Large Language Models.md",
     "Data Literacy/data_literacy_course.md",
     "Data Analytics/API  KEYS.md",
     "Dashboards",
     "Data Literacy/Data Literacy.md",
     "David Meza/dmeza_dmexco 1.jpeg",
-    "David Meza/BIO.md",
     "RetrievalAugmentationGeneration.webp",
     "private-LLM-ChatGPT-workflow.webp",
     "private-LLM-architecture.webp",
     "LLM_embeddings2.webp",
     "LLM_embeddings.webp",
-    "Data Analytics/MLOps.md",
     "Data Analytics/PaLM by Google AI.md",
     "Data Analytics/PEER by Meta AI.md",
     "Data Analytics/Predictive.md",
@@ -218,7 +251,6 @@
     "Data Science/Synthetic Data.md",
     "Data Books/1. Links to Books.md",
     "Data Science/Data Science.canvas",
-    "Data Books/Python Data Science Handbook.md",
     "Research and Development",
     "Data Storage",
     "Application GUIs/ntitled",
